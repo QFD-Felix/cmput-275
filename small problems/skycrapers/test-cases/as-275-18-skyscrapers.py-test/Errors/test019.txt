@@ -1,0 +1,4 @@
+  File "/home/cmput274/cmput275/skycrapers/soln/skyscrapers.py", line 11
+    levels[level] += 1
+                     ^
+TabError: inconsistent use of tabs and spaces in indentation

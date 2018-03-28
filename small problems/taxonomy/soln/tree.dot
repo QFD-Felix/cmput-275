@@ -1,0 +1,21 @@
+digraph structure {
+ ordering=out;
+ node [height=.1];
+3070472492 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'D' | <f1> 1\n'Does it have 4 legs?' | <f2> 2\n* | <f3> 3\n* } }"];
+3071180684 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'D' | <f1> 1\n'Can you ride it?' | <f2> 2\n* | <f3> 3\n* } }"];
+3070472428 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'I' | <f1> 1\n'horse' } }"];
+3071180428 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'D' | <f1> 1\n'Was it a puppy?' | <f2> 2\n* | <f3> 3\n* } }"];
+3071180588 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'I' | <f1> 1\n'dog' } }"];
+3070472332 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'I' | <f1> 1\n'horse' } }"];
+3070472460 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'D' | <f1> 1\n'Does it have hands?' | <f2> 2\n* | <f3> 3\n* } }"];
+3070472364 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'I' | <f1> 1\n'monkey' } }"];
+3070472236 [shape=record, height=.1, label="{ \<class 'list'\> | { <f0> 0\n'I' | <f1> 1\n'bird' } }"];
+3070472492:<f2> -> 3071180684;
+3071180684:<f2> -> 3070472428;
+3071180684:<f3> -> 3071180428;
+3071180428:<f2> -> 3071180588;
+3071180428:<f3> -> 3070472332;
+3070472492:<f3> -> 3070472460;
+3070472460:<f2> -> 3070472364;
+3070472460:<f3> -> 3070472236;
+}

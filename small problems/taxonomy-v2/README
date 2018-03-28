@@ -1,0 +1,9 @@
+Your task is to re-implement the original taxonomy program from Exercise
+3 using the most recent ValueTree class developed in today's lecture. A
+working original version of taxonomy.py is in the taxonomy-as3
+directory. An outline of the new taxonomy.py is in the directory
+taxonomy-v2. You should place your changes in the code outline that is
+in taxonomy-v2.
+
+Submit only the new taxonomy.pl
+
